@@ -130,7 +130,7 @@ function saveStudent() {
   jQuery.ajaxSetup({ async: false });
   var resultObj = executeCommandAtGivenBaseUrl(
     putReqStr,
-    "http://api.login2explore.com:5577",
+    "https://corsproxy.com/api.login2explore.com:5577",
     "/api/iml"
   );
   alert("Data added successfylly");
@@ -156,7 +156,7 @@ function updateStudent() {
   jQuery.ajaxSetup({ async: false });
   var resultObj = executeCommandAtGivenBaseUrl(
     updateReqStr,
-    "http://api.login2explore.com:5577",
+    "https://corsproxy.comapi.login2explore.com:5577",
     "/api/iml"
   );
   alert("Data Update successfylly");
